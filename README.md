@@ -11,7 +11,7 @@ Series of scripts to let you look up the activation lock bypass code in JSS and 
 
 ## Using these scripts
 1. Plug in an activation locked iPad
-2. Run ./unlockiPad.sh
+2.Run ./unlockiPad.sh
 
 ## How it works
 - Using the automation tools from Apple Configurator 2, the serial number of the plugged in iPad is grabbed
