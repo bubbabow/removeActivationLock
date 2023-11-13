@@ -29,7 +29,11 @@ session_token = get_session_token(session.get(jssAddress+'/legacy/iOSConfigurati
 
 data = {'session-token': session_token, 'ajaxAction': 'AJAX_ACTION_READ_BYPASS_CODE'}
 r = session.post(jssAddress+'/mobileDevices.ajax?id=%s&o=r&v=management' % args.jssid, data=data)
+<<<<<<< HEAD
 print
 var = r.content
 
+=======
+print r.content
+>>>>>>> 4df1f1082537014e2c92c397a92ae87652827b7f
 
